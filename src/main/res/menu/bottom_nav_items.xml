@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/browse"
+        android:enabled="true"
+        android:icon="@drawable/ic_browse"
+        android:title="Browse"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/playlist"
+        android:enabled="true"
+        android:icon="@drawable/ic_palaylist"
+        android:title="Playlist"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom"/>
+</menu>
